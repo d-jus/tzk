@@ -96,7 +96,7 @@ def update_data(attrname, old, new):
         f.glyph.fill_color = "black"      
 
     p.title.text = f"Tzk = {tzk_:.1f}"
-    extra_txt.text = f"t graniiczna: {tg(ts_,tw_,v_)}"
+    extra_txt.text = f"temp. graniczna: {tg(ts_,tw_,v_)}"
 
 
 curdoc().add_root(row(column(ts,tw,v,extra_txt), p, width=800))
